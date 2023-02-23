@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+
+//components
 import { Header } from './components/Header';
 import { About } from './components/About';
 import { WorkLife } from './components/WorkLife';
@@ -8,7 +10,9 @@ import { Projects } from './components/Projects';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-//import './leaguespartan/static';
+
+//font
+import "./font/LeagueSpartan-VariableFont_wght.ttf";
 
 class App extends React.Component {
   constructor(props){
