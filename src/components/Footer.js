@@ -9,9 +9,9 @@ class Footer extends React.Component {
       <div className="surface2-dark p-5 w-100 d-flex flex-column align-items-center justify-content-sm-evenly flex-sm-row flex-wrap text1-dark" style={{}}>
          <div className="d-flex flex-column text-center text-sm-start my-3">
             <h4>Attributions</h4>
-            <a className="text2-dark link" href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by ariefstudio - Flaticon</a>
-            <a className="text2-dark link" href="#">Freepic Images</a>
-            <a className="text2-dark link" href="#">Font Awesome Logos</a>
+            <a className="text2-dark link" hreftitle="close icons"></a>
+            <a className="text2-dark link" href="#">Svgrepo Icons</a>
+            <a className="text2-dark link" href="#">Google Fonts - League Spartan</a>
          </div>
          <div className="d-flex flex-column text-center text-sm-start my-3">
             <h4>More</h4>

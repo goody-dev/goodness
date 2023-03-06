@@ -1,6 +1,6 @@
 import React from 'react';
 import TwitterLogo from '../Assets/twitter.svg';
-import FacebookLogo from '../Assets/facebook.svg';
+import LinkedInLogo from '../Assets/linkedin.svg';
 import InstagramLogo from '../Assets/instagram.svg';
 import '../App.css';
 
@@ -27,7 +27,7 @@ class Contact extends React.Component {
          </form>
          <div className="w-100 my-3 mx-auto d-flex flex-row justify-content-center">
             <a href="https://instagram.com/codeevolver"><img src={InstagramLogo} alt="Instagram link" style={{width:'3rem', margin: 30}}/></a>
-            <a href="https://facebook.com"><img src={FacebookLogo} alt="Facebook link"style={{width:'3rem', margin: 30}} /></a>
+            <a href="https://www.linkedin.com/in/goodness-o-939796225"><img src={LinkedInLogo} alt="LinkedIn link"style={{width:'3rem', margin: 30}} /></a>
             <a href="https://twitter.com/code_evolver"><img src={TwitterLogo} alt="Twitter link" style={{width:'3rem', margin: 30}} /></a>
          </div>
       </div>

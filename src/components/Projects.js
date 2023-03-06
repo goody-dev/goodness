@@ -10,25 +10,25 @@ const projects = [
         id: 'Blogr Landing Page',
         img: BlogrImg,
         detail: '',
-        link: 'https://github.com',
+        link: 'https://codeevolver.github.io/blogr-landing-page-main/',
     },
     {
         id: 'Time Tracking Dashboard',
         img: DashboardImg,
         detail: '',
-        link: 'https://github.com',
+        link: 'https://codeevolver.github.io/time-tracking-dashboard-main/',
     },
     {
         id: 'Developer Portfolio',
         img: DevPortImg,
         detail: '',
-        link: 'https://github.com',
+        link: 'https://codeevolver.github.io/goodness-main/',
     },
     {
         id: 'Ping Coming Soon Page',
         img: PingImg,
         detail: '',
-        link: 'https://github.com',
+        link: 'https://codeevolver.github.io/ping-coming-soon-page-master/',
     },
     ]
 

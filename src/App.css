@@ -1,9 +1,10 @@
 @font-face {
     font-family: "League Spartan";
-    src: local("LeagueSpartan-VariableFont_wght"), url("./font/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+    src: local("LeagueSpartan-VariableFont_wght"), url("./fonts/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
 }
 .App {
     font-family: 'League Spartan';
+    text-align: center;
 }
 * {
   --brand-hue: 183;
