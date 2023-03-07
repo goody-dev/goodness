@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../Assets/menu-burger-horizontal.svg';
-import Close from '../Assets/close-x-svgrepo-com.svg'
+import Close from '../Assets/close-x-svgrepo-com.svg';
 import '../App.css';
 
 const navigator = [
