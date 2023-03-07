@@ -1,6 +1,6 @@
 @font-face {
     font-family: "League Spartan";
-    src: local("LeagueSpartan-VariableFont_wght"), url("fonts/LeagueSpartan-VariableFont_wght.ttf") format("truetype");
+    src: local("LeagueSpartanVariableFontwght"), url("fonts/LeagueSpartanVariableFontwght.ttf") format("truetype");
 }
 .App {
     font-family: 'League Spartan';

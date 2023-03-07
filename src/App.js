@@ -12,7 +12,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
 //font
-import "../src/fonts/LeagueSpartan-VariableFont_wght.ttf";
+import "./fonts/LeagueSpartanVariableFontwght.ttf";
 
 class App extends React.Component {
   constructor(props){
