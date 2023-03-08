@@ -1,5 +1,5 @@
 import React from 'react';
-import DevImg from '../Assets/profile-img.png';
+import DevImg from '../Assets/profile-img';
 import '../App.css';
 
 class About extends React.Component {
