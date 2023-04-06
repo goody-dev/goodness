@@ -7,28 +7,32 @@ import '../App.css';
 
 const projects = [
     {
-        id: 'Blogr Landing Page',
-        img: BlogrImg,
-        detail: '',
-        link: 'https://codeevolver.github.io/blogr-landing-page-main/',
-    },
-    {
         id: 'Time Tracking Dashboard',
         img: DashboardImg,
         detail: '',
         link: 'https://codeevolver.github.io/time-tracking-dashboard-main/',
+        status: 'Completed',
     },
     {
         id: 'Developer Portfolio',
         img: DevPortImg,
         detail: '',
-        link: 'https://codeevolver.github.io/goodness-main/',
+        link: 'https://goodness.vercel.app',
+        status: 'Completed',
     },
     {
         id: 'Ping Coming Soon Page',
         img: PingImg,
         detail: '',
         link: 'https://codeevolver.github.io/ping-coming-soon-page-master/',
+        status: 'Completed',
+    },
+    {
+        id: 'Blogr Landing Page',
+        img: BlogrImg,
+        detail: '',
+        link: 'https://blogr-landing-page-ce.vercel.app',
+        status: 'Ongoing',
     },
     ]
 
@@ -43,11 +47,14 @@ class Projects extends React.Component {
          <p className="text2-dark block w-100">Building projects and collaborating are ways of honing my skill.<br/>I learn from every project</p>
          {
              projects.map(project=> 
-             <a className="mx-auto" href={project.link} style={{textDecoration:'none'}}><div className="surface2-dark text1-dark d-flex flex-column w-80 rounded-3 my-3 my-sm-5 justify-content-between shadow-dark" style={{maxWidth: 300, minHeight: 300}}>
+             <div className="surface2-dark text1-dark d-flex flex-column w-80 rounded-3 my-3 my-sm-5 justify-content-between shadow-dark mx-auto" style={{maxWidth: 300, minHeight: 300}}>
                 <img src={project.img} alt="Project Images" className="rounded-3" />
-                <p>{project.id}</p>
+                <p className="my-1">{project.id}</p>
+                <div className="w-100 d-flex flex-row my-2 align-items-center">
+                    <p className="col-auto mx-auto"style={{color: 'var(--brand-light)'}}>Status: {project.status}</p>
+                    <a className="mx-auto col-auto" href={project.link} style={{textDecoration:'none'}}><button type="button" className="btn" style={{color: 'var(--brand-light)', textDecoration:'none', border:'2px solid #00ADB5', width: 'fit-content'}}>View</button></a>
+                </div>
             </div>
-            </a>
              )
          }
       </div>
