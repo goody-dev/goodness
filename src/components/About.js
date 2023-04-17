@@ -9,7 +9,7 @@ class About extends React.Component {
     
     render () {
         return (
-        <div id="about" className="surface1-dark w-100 p-3 p-sm-5 d-flex flex-column flex-sm-row-reverse justify-content-center align-items-sm-center" style={{maxHeight:650, height: '100vh'}}>
+        <div id="about" className="surface1-dark w-100 p-4 p-sm-5 d-flex flex-column flex-sm-row-reverse justify-content-center align-items-sm-center" style={{maxHeight:700, height: '100vh'}}>
             <div className="align-self-center" style={{width:'fit-content'}}>
                 <img src={DevImg} alt="young developer image" className="d-block align-self-center m-auto" style={{width:'auto', maxWidth:400}}/>
             </div>

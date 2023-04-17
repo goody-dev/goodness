@@ -19,7 +19,7 @@ class Footer extends React.Component {
             <a className="text2-dark link" href="https://fonts.google.com">Google Fonts - League Spartan</a>
          </div>
          {more}
-         <p className="w-100 my-3 text-center" style={{fontSize:18}}>©CodeEvolver</p>
+         <p className="w-100 my-3 text-center" style={{fontSize:18}}>©GoodnessOkanlawon</p>
       </div>
     );
   }

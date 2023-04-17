@@ -7,7 +7,6 @@ import JsLogo from '../Assets/javascript.svg';
 import ReactLogo from '../Assets/react.svg';
 import GitHubLogo from '../Assets/github.svg';
 import GitLogo from '../Assets/git.svg';
-import NodejsLogo from '../Assets/nodejs.svg';
 import '../App.css';
 
 const stack = [
@@ -35,9 +34,6 @@ const stack = [
     }, {
         tech: 'Git',
         img: GitLogo,
-    }, {
-        tech: 'Nodejs',
-        img: NodejsLogo,
     },
     ]
 
