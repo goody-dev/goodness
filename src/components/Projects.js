@@ -51,7 +51,7 @@ class Projects extends React.Component {
                 <img src={project.img} alt="Project Images" className="rounded-3" />
                 <p className="my-1">{project.id}</p>
                 <div className="w-100 d-flex flex-row my-2 align-items-center">
-                    <p className="col-auto mx-auto"style={{color: 'var(--brand-light)'}}>Status: {project.status}</p>
+                    <p className="col-auto mx-auto" style={{color: 'var(--brand-light)'}}>Status: {project.status}</p>
                     <a className="mx-auto col-auto" href={project.link} style={{textDecoration:'none'}}><button type="button" className="btn" style={{color: 'var(--brand-light)', textDecoration:'none', border:'2px solid #00ADB5', width: 'fit-content'}}>View</button></a>
                 </div>
             </div>
