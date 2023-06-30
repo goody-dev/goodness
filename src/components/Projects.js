@@ -47,10 +47,10 @@ class Projects extends React.Component {
          <p className="text2-dark block w-100">Building projects and collaborating are ways of honing my skill.<br/>I learn from every project</p>
          {
              projects.map(project=> 
-             <div className="surface2-dark text1-dark d-flex flex-column w-80 rounded-3 my-3 my-sm-5 justify-content-between shadow-dark mx-auto" style={{maxWidth: 300, minHeight: 300}}>
+             <div className="surface2-dark text1-dark d-flex flex-column w-80 rounded-3 my-3 my-sm-5 justify-content-between shadow-dark mx-auto w-100" style={{maxWidth: 300, minHeight: 300}}>
                 <img src={project.img} alt="Project Images" className="rounded-3 w-auto" />
                 <p className="my-1">{project.id}</p>
-                <div className="w-100 d-flex flex-row my-2 align-items-center">
+                <div className="w-100 d-flex flex-row my-2 align-items-center flex-wrap">
                     <p className="col-auto mx-auto" style={{color: 'var(--brand-light)'}}>Status: {project.status}</p>
                     <a className="mx-auto col-auto" href={project.link} style={{textDecoration:'none'}}><button type="button" className="btn" style={{color: 'var(--brand-light)', textDecoration:'none', border:'2px solid #00ADB5', width: 'fit-content'}}>View</button></a>
                 </div>
