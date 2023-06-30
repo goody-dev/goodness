@@ -48,7 +48,7 @@ class Projects extends React.Component {
          {
              projects.map(project=> 
              <div className="surface2-dark text1-dark d-flex flex-column w-80 rounded-3 my-3 my-sm-5 justify-content-between shadow-dark mx-auto" style={{maxWidth: 300, minHeight: 300}}>
-                <img src={project.img} alt="Project Images" className="rounded-3" />
+                <img src={project.img} alt="Project Images" className="rounded-3 w-auto" />
                 <p className="my-1">{project.id}</p>
                 <div className="w-100 d-flex flex-row my-2 align-items-center">
                     <p className="col-auto mx-auto" style={{color: 'var(--brand-light)'}}>Status: {project.status}</p>

@@ -5,6 +5,9 @@
 .App {
     font-family: 'League Spartan';
     text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 * {
   --brand-hue: 183;
