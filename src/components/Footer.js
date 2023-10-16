@@ -8,7 +8,7 @@ class Footer extends React.Component {
     const more = <div className="d-flex flex-column text-center text-sm-start my-3">
             <h4>More</h4>
             <a className="text2-dark link" href="https://www.moodybible.org/knowing-christ/">Know Christ</a>
-            <a className="text2-dark link" href="https://github.com/CodeEvolver">Visit GitHub</a>
+            <a className="text2-dark link" href="https://github.com/goody-dev">Visit GitHub</a>
          </div>;
          
     return (

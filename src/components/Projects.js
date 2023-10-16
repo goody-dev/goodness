@@ -10,7 +10,7 @@ const projects = [
         id: 'Time Tracking Dashboard',
         img: DashboardImg,
         detail: '',
-        link: 'https://codeevolver.github.io/time-tracking-dashboard-main/',
+        link: 'https://goody-dev.github.io/time-tracking-dashboard-main/',
         status: 'Completed',
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         id: 'Ping Coming Soon Page',
         img: PingImg,
         detail: '',
-        link: 'https://codeevolver.github.io/ping-coming-soon-page-master/',
+        link: 'https://goody-dev.github.io/ping-coming-soon-page-master/',
         status: 'Completed',
     },
     {
@@ -43,7 +43,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects" className="w-100 surface1-dark p-5 d-flex flex-row flex-wrap" style={{}}>
-         <h1 className="text1-dark block w-100" style={{}}>Projects</h1>
+         <h1 className="text1-dark block w-100" style={{color: '#00ADB5'}}>Projects</h1>
          <p className="text2-dark block w-100">Building projects and collaborating are ways of honing my skill.<br/>I learn from every project</p>
          {
              projects.map(project=> 

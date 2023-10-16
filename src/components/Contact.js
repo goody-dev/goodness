@@ -93,7 +93,7 @@ class Contact extends React.Component {
          <div className="w-100 my-3 mx-auto d-flex flex-row justify-content-center">
             <a href="https://instagram.com/codeevolver"><img src={InstagramLogo} alt="Instagram link" style={{width:'2rem', margin: '2vw'}}/></a>
             <a href="https://www.linkedin.com/in/goodness-o-939796225"><img src={LinkedInLogo} alt="LinkedIn link"style={{width:'2rem', margin: '2vw'}} /></a>
-            <a href="https://twitter.com/code_evolver"><img src={TwitterLogo} alt="Twitter link" style={{width:'2rem', margin: '2vw'}} /></a>
+            <a href="https://twitter.com/goody_dev"><img src={TwitterLogo} alt="Twitter link" style={{width:'2rem', margin: '2vw'}} /></a>
          </div>
       </div>
     )

@@ -45,7 +45,7 @@ class Stack extends React.Component {
   render() {
     return (
       <div id="stack" className="w-100 py-5 surface1-dark" style={{}}>
-  p      <h1 className="text1-dark" style={{}}>My Tech Stack</h1>
+  p      <h1 className="text1-dark" style={{color: '#00ADB5'}}>My Tech Stack</h1>
          <p className="text2-dark">I currently work with these technologies</p>
         <div className="d-flex g-20 flex-row flex-wrap w-100 px-md-5 justify-content-center mx-auto" style={{maxWidth:800}}>
         {

@@ -24,7 +24,7 @@ class WorkLife extends React.Component {
     
     return (
       <div id="workLife" className="w-100 p-5 d-flex flex-row flex-wrap justify-content-center align-items-between surface1-dark" style={{height: 'maxContent', color:'#EEEEEE'}}>
-      <h1 className="text1-dark block w-100" style={{}}>How I Build</h1>
+      <h1 className="text1-dark block w-100" style={{color: '#00ADB5'}}>How I Build</h1>
       <p className="text2-dark block w-100">I work differently based on your solution</p>
       {
           list.map((item) =>
